@@ -83,40 +83,6 @@ img {
     opacity: 0.8;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*mainpic*/
 #mainpic {
     margin-bottom: 80px;
@@ -127,5 +93,69 @@ img {
     max-width: 1920px;
     height: 420px;
     object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*works*/
+#works ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  #works li {
+    width: 31%;
+    margin-bottom: 23px;
   }
   

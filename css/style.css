@@ -110,11 +110,13 @@ img {
 
 #profile img{
     width: 100px;
+    flex-wrap: wrap;
 }
 #profile ul {
     text-align: justify;
     line-height: 2;
 }
+
 
 /*works*/
 #works ul {
@@ -132,9 +134,20 @@ img {
       margin-top: 50px;
   }
 
+/*access*/
 
+.maps{
+    display: flex;
+    justify-content: center;
+}
 
-
+iframe {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+      }
 
 
 

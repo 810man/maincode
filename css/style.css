@@ -102,23 +102,35 @@ img {
 
   /* profile */
 
-#profile h2{
-    margin: -50px 0px 10px;
-    padding: auto;
-    background-color: antiquewhite;
+  #profile h2{
+    margin: 30px;
 }
 
+#profile.box{
+    position: relative;
+}
 #profile img{
-    width: 100px;
-    flex-wrap: wrap;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    margin: 40px 20px 40px 0px;
 }
 #profile ul {
-    text-align: justify;
-    line-height: 2;
+    text-align: left;
+    margin:50px 50px 50px 330px;
+    
 }
+
+#profile li{
+  line-height: 2;
+}
+
 
 
 /*works*/
+#works h2{
+  margin: 30px;
+}
 #works ul {
     display: flex;
     justify-content: space-between;
@@ -135,6 +147,9 @@ img {
   }
 
 /*access*/
+#access h2{
+  margin: 30px;
+}
 
 .maps{
     display: flex;
@@ -186,6 +201,9 @@ iframe {
 
 
   /*contact*/
+  #contact h2{
+    margin: 30px;
+  }
   #contact dl {
     display: flex;
     flex-wrap: wrap;

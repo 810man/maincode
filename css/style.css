@@ -112,8 +112,8 @@ img {
     width: 100px;
 }
 #profile ul {
-    text-align: center;
-
+    text-align: justify;
+    line-height: 2;
 }
 
 /*works*/
@@ -126,6 +126,10 @@ img {
   #works li {
     width: 31%;
     margin-bottom: 23px;
+  }
+
+  .sec-works {
+      margin-top: 50px;
   }
 
 
@@ -176,6 +180,7 @@ img {
   }
   #contact dt {
     width: 15%;
+    text-align: right;
   }
   #contact dd {
     width: 75%;
@@ -183,7 +188,7 @@ img {
   }
   #contact dd input,
   #contact dd textarea {
-    width: 100%;
+    width: 65%;
     border: solid 1px #c8c8c8;
     padding: 10px;
   }
@@ -205,4 +210,6 @@ img {
     color: #24292e;
   }
   
-  
+  .sec-contact {
+    margin-top: 50px;
+  }

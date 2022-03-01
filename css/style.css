@@ -104,8 +104,7 @@ img {
 }
 
   /* profile */
-
-  #profile h2{
+#profile h2{
     margin: 30px;
 }
 
@@ -168,7 +167,70 @@ iframe {
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
-      }
+}
+
+/* source-code 共通*/
+.source-code {
+  margin: 30px 0;
+}
+.source-code label {
+  padding: 5px;
+  font-weight: blod;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+.source-code label:hover {
+  background-color: grey;
+}
+
+.source-code input {
+  display: none;
+}
+
+/* source-code 個別設定0~ */
+
+.source-code .hidden_show1 {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:  0.8s;
+}
+
+.source-code input:checked~ .hidden_show1 {
+  padding: 20px 0;
+  height: auto;
+  opacity: 1;
+}
+
+.source-code .hidden_show2 {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:  0.8s;
+}
+
+.source-code input:checked~ .hidden_show2 {
+  padding: 20px 0;
+  height: auto;
+  opacity: 1;
+}
+
+.source-code .hidden_show3 {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:  0.8s;
+}
+
+.source-code input:checked~ .hidden_show3 {
+  padding: 20px 0;
+  height: auto;
+  opacity: 1;
+}
 
 
 

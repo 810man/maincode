@@ -99,6 +99,7 @@ img {
     max-width: 1920px;
     height: 420px;
     object-fit: cover;
+    filter: grayscale(100%);
 }
 
   /* profile */
@@ -111,10 +112,12 @@ img {
     position: relative;
 }
 #profile img{
-    width: 200px;
+    width: 180px;
     position: absolute;
     left: 100px;
-    margin: 40px 20px 40px 0px;
+    margin: 30px 20px 30px 0px;
+    border-radius: 90px;
+    filter: grayscale(100%);
 }
 #profile ul {
     text-align: left;
@@ -141,6 +144,7 @@ img {
   #works li {
     width: 31%;
     margin-bottom: 23px;
+    filter: grayscale(100%);
   }
 
   .sec-works {
@@ -246,3 +250,8 @@ iframe {
     margin-top: 50px;
   }
 
+#footer{
+  background-color: rgba(148, 148, 148, 0.26);
+  margin-top: 30px;
+  height: auto;
+}

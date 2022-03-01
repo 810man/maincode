@@ -64,13 +64,14 @@ img {
     height: 200px;
     margin: 0 0;
     padding: 0 4%;
+    position: fixed;
 }
 
 /* ヘッダーのコンテンツ置く場所 */
 #header ul {
     display: flex;
-
 }
+
 #header h1{
     margin-left: 80px;
 

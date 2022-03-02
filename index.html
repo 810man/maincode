@@ -53,6 +53,46 @@
             </li>
         </ul>
         </nav>
+        <!-- クイズ -->
+        <script type="text/javascript">
+            <!--
+            function saiten(){
+                var point=0;	//　点数
+                var max=100;	//　満点
+            
+                if(document.quiz.a[1].checked){point+=10;}
+                if(document.quiz.b[0].checked){point+=10;}
+                if(document.quiz.c[1].checked){point+=10;}
+                if(document.quiz.d[2].checked){point+=10;}
+                if(document.quiz.e[1].checked){point+=10;}
+                if(document.quiz.f[0].checked){point+=10;}
+                if(document.quiz.g[0].checked){point+=10;}
+                if(document.quiz.h[2].checked){point+=10;}
+                if(document.quiz.i[1].checked){point+=10;}
+                if(document.quiz.j[1].checked){point+=10;}
+            
+                if(point==max){
+                    alert(""+max+"点です。\nおめでとうございます。満点です。\n秘密のページにご招待。");
+                    location.href="himitu.htm";
+                }
+                else{alert(""+point+"点です。\n残念。またチャレンジしてね。");}
+                
+            
+                //　チェックを初期状態に戻します
+                //　いらなきゃ削除してもOK
+                document.quiz.a[0].checked=true;
+                document.quiz.b[0].checked=true;
+                document.quiz.c[0].checked=true;
+                document.quiz.d[0].checked=true;
+                document.quiz.e[0].checked=true;
+                document.quiz.f[0].checked=true;
+                document.quiz.g[0].checked=true;
+                document.quiz.h[0].checked=true;
+                document.quiz.i[0].checked=true;
+                document.quiz.j[0].checked=true;
+            }
+            //-->
+            </script>
     </header>
 
     <span class="fa fa-bars menu-icon"></span>
@@ -202,6 +242,56 @@
 
     
     </main>
+
+    <section id =Q>
+    <h2>Quiz</h2>
+    <form name="quiz">
+    <P>Q1　文字の色を変えるcssが反映されるは？
+    <BR><input type=radio name="a" checked>上に書いた方
+    <input type=radio name="a">下に書いた方
+    <input type=radio name="a">真ん中
+    <P>Q2　htmlはプログラミング言語である？
+     <BR><input type=radio name="b" checked>イェーイ
+        　<input type=radio name="b">no
+        　<input type=radio name="b">どちらともいえない
+        <P>Q3　どのブラウザでも自分の書いたcssが適用されるために書くものは？
+        <BR><input type=radio name="c" checked>メリットcss
+        　<input type=radio name="c">リセットcss
+        　<input type=radio name="c">テンプレートcss
+        <P>Q4　classは一つのhtmlファイルで何回使える？
+        <BR><input type=radio name="d" checked>3回までだよ
+        　<input type=radio name="d">1回だけよ
+        　<input type=radio name="d">何回まででも使えるさ
+        <P>Q5　WEBディレクションで重要なものは？
+        <BR><input type=radio name="e" checked>条件定義
+        　<input type=radio name="e">要件定義
+        　<input type=radio name="e">ワイヤーフレーム
+        <P>Q6　デザインとは？
+        <BR><input type=radio name="f" checked>機能＆技術
+        　<input type=radio name="f">UI＆センス
+        　<input type=radio name="f">発想＆技術
+        <P>Q7　ベースカラー：メインカラー：アクセントカラーの比率で理想的なのは？
+        <BR><input type=radio name="g" checked>7:2.5:0.5
+        　<input type=radio name="g">6:3:1
+        　<input type=radio name="g">0.5:2.5:7
+        <P>Q8　四つの基本機能クラッドとは？
+        <BR><input type=radio name="h" checked>CLUD
+        　<input type=radio name="h">KROD
+        　<input type=radio name="h">CRUD
+        <P>Q9　コードを書く上での心得でSUNABACO的に最も大切なのは？
+        <BR><input type=radio name="i" checked>誰もが見やすいコードじゃ
+        　<input type=radio name="i">動くコードじゃ
+        　<input type=radio name="i">すっきりスマートなコードじゃ
+        <P>Q10　SUNABACO的プログラミングとは？
+        <BR><input type=radio name="j" checked>自己実現の為の必須能力
+        　<input type=radio name="j">誰かの困りごとを解決する為の有効な選択肢
+        　<input type=radio name="j">かっこいいプログラマー
+        <P><input type=button value=" 採点 " onClick="saiten()">
+    </form>
+    </section>
+
+
+
 
     <footer id="footer">
         <p> &copy; 2022 YOSUKE ITOMURA </p>

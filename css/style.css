@@ -132,14 +132,25 @@ img {
 #works h2{
   margin: 30px;
 }
+
 #works ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#works img {
+width: 400px;
+height: 260px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 50px;
+
   }
+
   #works li {
-    width: 31%;
     margin-bottom: 23px;
     filter: grayscale(100%);
   }

@@ -112,8 +112,18 @@
     }
     
     /* works */
-    #works li {
+    /* #works li {
         width: 100%;
         text-align: center;
+    } */
+
+    #works ul {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #works li {
+        width: 31%;
+        margin-bottom: 23px;
+        filter: grayscale(100%);
     }
 }

@@ -29,12 +29,26 @@
     h1 {
         color:red;
     }
-    /* humburger用 */
-    #header li {
+    /* hamburger用 */
+    .pc li {
         display: none;
     }
-
-    #humburger {
+    
+    #header {
+        height: 60px;
+        width: 100%;
+        padding: 0 15px;
+        position: fixed;
+        background-color: dimgrey;
+        top: 0;
+        z-index: 10;
+        display: flex;
+    }
+    #header h1 {
+        color: white;
+    }
+    
+    #hamburger {
         background-color: transparent;
         position: relative;
         cursor: pointer;
@@ -54,17 +68,52 @@
     }
 
     .icon span:nth-of-type(1) {
-        
+        top: 16px;
     }
     .icon span:nth-of-type(2) {
-        
+        top: 28px;
     }
     .icon span:nth-of-type(3) {
-        
+        bottom: 16px;
+    }
+
+    .close span:nth-of-type(1) {
+        transform: rotate(45deg);
+        top: 28px;
+    }
+    .close span:nth-of-type(2) {
+        opacity: 0;
+    }
+    .close span:nth-of-type(3) {
+        transform: rotate(-45deg);
+        top: 28px;
+    }
+
+    .sm {
+        top: 60px;
+        right: 0px;
+        position: absolute;
+        z-index: 10;
+        width: 30%;
+        background-color: dimgray;
+    }
+    
+    .sm ul {
+        flex-direction: column;       
+    }
+    .sm li {
+        font-size: 10px;
+        color: white;       
+    }
+
+    .sm a {
+        text-align: center;
+        border-top: solid 0.5px rgba(255, 255, 255, 0.6);
     }
     
     /* works */
     #works li {
         width: 100%;
+        text-align: center;
     }
 }

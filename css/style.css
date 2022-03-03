@@ -181,6 +181,79 @@ iframe {
     filter: grayscale(100%);
 }
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*contact*/
+  #contact dl {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  #contact dt {
+    width: 15%;
+}
+  #contact dd {
+    width: 75%;
+    margin-bottom: 10px;
+  }
+  #contact dd input,
+  #contact dd textarea {
+    width: 65%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+  }
+  #contact dd textarea {
+    height: 10rem;
+  }
+  #contact .button {
+    text-align: center;
+  }
+  #contact .button input {
+    width: 200px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #24292e;
+  }
+  #contact .button input:hover {
+    background: #fff;
+    color: #24292e;
+  }
+=======
 /*contact*/
 #contact h2{
    margin: 30px;
@@ -221,6 +294,7 @@ iframe {
   background: #fff;
   color: #24292e;
 }
+>>>>>>> d9cab19a3024ecd0eecff88563c887cba31726c8
   
 .sec-contact {
   margin-top: 50px;

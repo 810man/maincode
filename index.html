@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
+
 <body>
     <!-- header&main -->
     <header id="header">
@@ -29,6 +30,7 @@
                 <li><a href="#works">Works</a></li>
                 <li><a href="#access">Access</a></li>
                 <li><a href="#contact">Contact</a></li>      
+                <li><a href="quiz.html">Quiz</a></li>      
                 <li>
                     <a href="https://twitter.com/yoskmr" target="_blank">
                         <img class="icon" src="img/2021 Twitter logo - black.png" alt="twitter">
@@ -38,14 +40,14 @@
         </nav>
         <!-- 🍔 -->
 
-
-        <nav>
+        <nav class="pc">
         <ul>
             <li><a href="#mainpic">TOP</a></li>
             <li><a href="#profile">Profile</a></li>
             <li><a href="#works">Works</a></li>
             <li><a href="#access">Access</a></li>
             <li><a href="#contact">Contact</a></li>      
+            <li><a href="quiz.html">Quiz</a></li>      
             <li>
                 <a href="https://twitter.com/yoskmr" target="_blank">
                     <img class="icon" src="img/2021 Twitter logo - black.png" alt="twitter">
@@ -53,6 +55,7 @@
             </li>
         </ul>
         </nav>
+
         <!-- クイズ -->
         <script type="text/javascript">
             <!--
@@ -94,8 +97,16 @@
             //-->
             </script>
     </header>
+<!-- 🍔jQuery -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <script>
+        $('#hamburger').on('click',function() {
+            $('.icon').toggleClass('close');
+            $('.sm li').slideToggle();
+        });
+    </script>
+<!-- 🍔jQuery -->
 
-    <span class="fa fa-bars menu-icon"></span>
     
     <main>
       <div id="mainpic" class="wrapper">
@@ -109,7 +120,7 @@
         <label for="label0">header&main画像のソースコード</label>
         <input type="checkbox" id="label0">
         <div class="hidden_show0">
-            <p class="memo">0.5xボタンを押してresult表示サイズを調整ください</p>
+            <p class="memo">倍率ボタンを押してresult表示サイズを調整ください</p>
             <p class="codepen" data-height="400" data-default-tab="css,result" data-slug-hash="gOXjyrN" data-user="snk7791" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                 <span>See the Pen <a href="https://codepen.io/snk7791/pen/gOXjyrN">
                 卒mainvisual-code</a> by snk7791 (<a href="https://codepen.io/snk7791">@snk7791</a>)
@@ -146,7 +157,7 @@
         <label for="label1">Profileのソースコード</label>
         <input type="checkbox" id="label1">
         <div class="hidden_show1">
-            <p class="memo">0.5xボタンを押してresult表示サイズを調整ください</p>
+            <p class="memo">倍率ボタンを押してresult表示サイズを調整ください</p>
             <p class="codepen" data-height="400" data-default-tab="css,result" data-slug-hash="xxPJedz" data-user="snk7791" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                 <span>See the Pen <a href="https://codepen.io/snk7791/pen/xxPJedz">
                 卒profile-code</a> by snk7791 (<a href="https://codepen.io/snk7791">@snk7791</a>)
@@ -174,7 +185,7 @@
             <label for="label2">Worksのソースコード</label>
             <input type="checkbox" id="label2">
             <div class="hidden_show2">
-                <p class="memo">0.5xボタンを押してresult表示サイズを調整ください</p>
+                <p class="memo">倍率ボタンを押してresult表示サイズを調整ください</p>
                 <p class="codepen" data-height="400" data-default-tab="css,result" data-slug-hash="gOXjyXO" data-user="snk7791" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                     <span>See the Pen <a href="https://codepen.io/snk7791/pen/gOXjyXO">
                     卒works-code</a> by snk7791 (<a href="https://codepen.io/snk7791">@snk7791</a>)
@@ -198,7 +209,7 @@
             <label for="label3">Accessのソースコード</label>
             <input type="checkbox" id="label3">
             <div class="hidden_show3">
-                <p class="memo">0.5xボタンを押してresult表示サイズを調整ください</p>
+                <p class="memo">倍率ボタンを押してresult表示サイズを調整ください</p>
                 <p class="codepen" data-height="400" data-default-tab="css,result" data-slug-hash="RwjqbOa" data-user="snk7791" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                     <span>See the Pen <a href="https://codepen.io/snk7791/pen/RwjqbOa">
                     卒Access-code</a> by snk7791 (<a href="https://codepen.io/snk7791">@snk7791</a>)
@@ -229,7 +240,7 @@
             <label for="label4">Contactのソースコード</label>
             <input type="checkbox" id="label4">
             <div class="hidden_show4">
-                <p class="memo">0.5xボタンを押してresult表示サイズを調整ください</p>
+                <p class="memo">倍率ボタンを押してresult表示サイズを調整ください</p>
                 <p class="codepen" data-height="400" data-default-tab="css,result" data-slug-hash="yLPqrrp" data-user="snk7791" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                     <span>See the Pen <a href="https://codepen.io/snk7791/pen/yLPqrrp">
                     卒contact-code</a> by snk7791 (<a href="https://codepen.io/snk7791">@snk7791</a>)
@@ -243,7 +254,7 @@
     
     </main>
 
-    <section id =Q>
+    <section id ="Quiz">
     <h2>Quiz</h2>
     <form name="quiz">
     <P>Q1　文字の色を変えるcssが反映されるは？
@@ -302,7 +313,7 @@
         <label for="label5">footerのソースコード</label>
         <input type="checkbox" id="label5">
         <div class="hidden_show5">
-            <p class="memo">0.5xボタンを押してresult表示サイズを調整ください</p>
+            <p class="memo">倍率ボタンを押してresult表示サイズを調整ください</p>
             <p class="codepen" data-height="400" data-default-tab="css,result" data-slug-hash="VwrBNGJ" data-user="snk7791" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                 <span>See the Pen <a href="https://codepen.io/snk7791/pen/VwrBNGJ">
                 卒news-code</a> by snk7791 (<a href="https://codepen.io/snk7791">@snk7791</a>)

@@ -103,16 +103,7 @@ img {
     max-width: 1920px;
     height: 800px;
     object-fit: cover;
-<<<<<<< HEAD
-    animation: fadeIn 0.6ase 0.9s 1 normal;
-}
-
-@keyframes fadeIn { /*animation-nameで設定した値を書く*/
-    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
-    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
-=======
     filter: grayscale(100%);
->>>>>>> d9cab19a3024ecd0eecff88563c887cba31726c8
 }
 
   /* profile */

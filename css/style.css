@@ -415,11 +415,22 @@ iframe {
   opacity: 1;
 }
 
-
+/* Quiz */
 section h2{
   margin: 30px;
 }
 
-section#Q p{
-  line-height: 50px;
+#Quiz p {
+  padding-top: 100px;
 }
+
+#Quiz input[type="radio"] {
+  font-size: 30px;
+}
+
+.question ,.point {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+

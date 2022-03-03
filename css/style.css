@@ -56,7 +56,8 @@ img {
  
 /* ヘッダー */
 #header {
-    width: 95%;
+    max-width: 1920px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,6 +88,9 @@ img {
 } 
 #header li a:hover{
     opacity: 0.8;
+}
+.sm li {
+  display: none;
 }
 
 /*mainpic*/
@@ -142,23 +146,22 @@ img {
 }
 
 #works img {
-width: 400px;
-height: 260px;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-margin-bottom: 50px;
+  width: 400px;
+  height: 260px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  /* margin-bottom: 50px; */
+}
 
-  }
+#works li {
+   margin-bottom: 23px;
+   filter: grayscale(100%);
+}
 
-  #works li {
-    margin-bottom: 23px;
-    filter: grayscale(100%);
-  }
-
-  .sec-works {
-      margin-top: 50px;
-  }
+.sec-works {
+   margin-top: 50px;
+}
 
 /*access*/
 #access h2{
@@ -178,6 +181,79 @@ iframe {
     filter: grayscale(100%);
 }
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*contact*/
+  #contact dl {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  #contact dt {
+    width: 15%;
+}
+  #contact dd {
+    width: 75%;
+    margin-bottom: 10px;
+  }
+  #contact dd input,
+  #contact dd textarea {
+    width: 65%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+  }
+  #contact dd textarea {
+    height: 10rem;
+  }
+  #contact .button {
+    text-align: center;
+  }
+  #contact .button input {
+    width: 200px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #24292e;
+  }
+  #contact .button input:hover {
+    background: #fff;
+    color: #24292e;
+  }
+=======
 /*contact*/
 #contact h2{
    margin: 30px;
@@ -218,6 +294,7 @@ iframe {
   background: #fff;
   color: #24292e;
 }
+>>>>>>> d9cab19a3024ecd0eecff88563c887cba31726c8
   
 .sec-contact {
   margin-top: 50px;
@@ -338,11 +415,22 @@ iframe {
   opacity: 1;
 }
 
-
+/* Quiz */
 section h2{
   margin: 30px;
 }
 
-section#Q p{
-  line-height: 50px;
+#Quiz p {
+  padding-top: 100px;
 }
+
+#Quiz input[type="radio"] {
+  font-size: 30px;
+}
+
+.question ,.point {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+

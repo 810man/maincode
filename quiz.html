@@ -60,11 +60,11 @@
         <script type="text/javascript">
             <!--
             function saiten(){
-                var point=0;	//　点数
-                var max=100;	//　満点
+                var point=0;	//点数
+                var max=100;	//満点
             
                 if(document.quiz.a[1].checked){point+=10;}
-                if(document.quiz.b[0].checked){point+=10;}
+                if(document.quiz.b[1].checked){point+=10;}
                 if(document.quiz.c[1].checked){point+=10;}
                 if(document.quiz.d[2].checked){point+=10;}
                 if(document.quiz.e[1].checked){point+=10;}
@@ -81,8 +81,8 @@
                 else{alert(""+point+"点です。\n残念。またチャレンジしてね。");}
                 
             
-                //　チェックを初期状態に戻します
-                //　いらなきゃ削除してもOK
+                //チェックを初期状態に戻します
+                //いらなきゃ削除してもOK
                 document.quiz.a[0].checked=true;
                 document.quiz.b[0].checked=true;
                 document.quiz.c[0].checked=true;

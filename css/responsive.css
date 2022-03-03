@@ -115,6 +115,24 @@
         text-align: center;
     } */
 
+    #header h1{
+        font-size: 20px;
+
+    }
+
+
+    /* #profile .box{
+        display: flex;
+    } */
+    #profile img{
+        position: initial;
+        margin: 0px auto;
+    }
+    #profile ul{
+        text-align: center;
+        margin:10px 10px;
+    }
+
     #works ul {
         display: flex;
         justify-content: center;
@@ -124,3 +142,21 @@
        margin: 0 auto;
    }
 }
+
+
+
+
+/* 
+/* タブッレト用 */
+/* @media (max-width: 1000px) { */
+    /* 確認用 */
+    /* h1 {
+        color:blue;
+    } */
+    /* works */
+    /* #works li  {
+        width: 50%;
+    }
+
+} */
+ 
